@@ -7,11 +7,11 @@ Features:
 - Shows messages based on eye status (Open or Blinking)
   
 Requirements:
--Python 3.x
--OpenCV
--Numpy
--Dlib
--shape_predictor_68_face_landmarks.dat (Dlib facial landmark model file)
+- Python 3.x
+- OpenCV
+- Numpy
+- Dlib
+- shape_predictor_68_face_landmarks.dat (Dlib facial landmark model file)
 
 # Code Explanation
 - cap = cv2.VideoCapture(0) starts the webcam feed.
@@ -25,5 +25,5 @@ Requirements:
 - Based on the ratio of these distances, determines the state of the eyes.
   
 # Sample Output
-Open: The eyes are open.
-BLINKING: A blink is detected.
+- Open: The eyes are open.
+- BLINKING: A blink is detected.
